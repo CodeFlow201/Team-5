@@ -4,6 +4,15 @@ const navMenu = document.getElementById('nav-menu'),
       navClose = document.getElementById('nav-close')
 
 /*===== MENU SHOW =====*/
+    let form=document.querySelector('.subscribe__form');
+        form.addEventListener('submit', event => {
+            event.preventDefault();
+           
+        })
+/*=== Validate the form ===*/
+
+
+/*=== End form validation ==*/
 /* Validate if constant exists */
 if(navToggle){
     navToggle.addEventListener('click', () =>{
