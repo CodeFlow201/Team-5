@@ -287,6 +287,9 @@ header{
 
 /*=============== FOOTER ===============*/
 /*=============== FOOTER ===============*/
+.footer__rights {
+    margin-bottom: 1.5em;
+}
 
 .footer__container {
     row-gap: 5rem;
